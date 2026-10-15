@@ -10,4 +10,4 @@ brew install --cask phinze/tap/<cask>
 
 | Cask | Upstream status |
 | --- | --- |
-| `petal` | not yet submitted |
+| `petal` | [Homebrew/homebrew-cask#294535](https://github.com/Homebrew/homebrew-cask/pull/294535) |
