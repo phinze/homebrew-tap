@@ -19,4 +19,11 @@ cask "petal" do
   depends_on macos: :ventura
 
   app "Petal.app"
+
+  zap trash: [
+    "~/Library/Application Support/com.petal.app",
+    "~/Library/Caches/com.petal.app",
+    "~/Library/Logs/Petal",
+    "~/Library/WebKit/com.petal.app",
+  ]
 end
